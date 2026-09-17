@@ -1,0 +1,1 @@
+import{i as e,m as t}from"./canvasExport-DX3bdDlB.js";import"./embedBridge-6B-5bAiP.js";import{t as n}from"./ComparisonApp-DuOkefdd.js";var r=t(),i=e(),a=document.getElementById(`root`);if(!a)throw Error(`Comparison root is missing`);(0,r.createRoot)(a).render((0,i.jsx)(n,{}));

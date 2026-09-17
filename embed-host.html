@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; frame-src 'self'; connect-src 'self' blob:; object-src 'none'; base-uri 'none'" />
+  <title>Coco Viewer Embed Host Harness</title>
+  <script type="module" crossorigin src="/assets/embedHost-DSFZJRMe.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/embedBridge-6B-5bAiP.js">
+  <link rel="modulepreload" crossorigin href="/assets/hostClient-DiikoHZY.js">
+  <link rel="stylesheet" crossorigin href="/assets/embedHost-DLDN7uJG.css">
+</head>
+<body>
+  <header>
+    <span>In-memory bridge harness · <span id="status">booting</span></span>
+    <label id="cadence-cache-control" hidden>
+      Cadence cache
+      <input id="cadence-cache-input" data-testid="cadence-cache-input" type="file" accept=".tgz,.tar.gz,application/gzip" />
+    </label>
+  </header>
+  <iframe id="viewer" title="Coco Viewer Embed"></iframe>
+</body>
+</html>
